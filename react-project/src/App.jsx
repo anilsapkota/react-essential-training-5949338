@@ -1,11 +1,19 @@
 
 import './App.css';
 
-let language = "JavaScript";
+function Header() {
+  return (
+    <header>
+      <h1>Sanskrit Animation Studio</h1>
+    </header>
+  )
+}
 
 
 function App() {
-  return <h1>Hello {language.toUpperCase()}</h1>
+  return (
+    <Header />
+  )
 }
 
 export default App
