@@ -12,7 +12,14 @@ function Header() {
 
 function App() {
   return (
-    <Header />
+    <div>
+      <Header />
+    <main>
+      <h2>We create fun learning game</h2>
+    </main>
+
+    </div>
+    
   )
 }
 
