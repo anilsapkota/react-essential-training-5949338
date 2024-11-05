@@ -1,8 +1,11 @@
 
-import './App.css'
+import './App.css';
+
+let language = "JavaScript";
+
 
 function App() {
-  return <h1>Hello World!</h1>
+  return <h1>Hello {language.toUpperCase()}</h1>
 }
 
 export default App
